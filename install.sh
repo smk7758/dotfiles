@@ -1,4 +1,6 @@
 #!/bin/sh -x
+currentdir=`pwd`
+# dir=~/.dotfiles/
 
 cd ~/
 
@@ -9,11 +11,11 @@ sudo apt upgrade
 
 # ln -sf ~/.dotfiles/vimrc ~/.vimrc
 # ln -sf ~/.dotfiles/vim ~/.vim
-# ln -sf ~/.dotfiles/tmux.conf ~/.tmux.conf
+# ln -sf ~/,dotfiles/tmux.conf ~/.tmux.conf
 
-cat ./add_bashrc >> ~/.bashrc
+cat ~/.dotfiles/.add_bashrc >> ~/.bashrc
 
 # for WSL
-./install_wsl.sh
+~/.dotfiles/install_wsl.sh
 
 
