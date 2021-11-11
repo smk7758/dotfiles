@@ -9,7 +9,7 @@ sudo perl -p -i.bak -e 's%https?://(?!security)[^ \t]+%http://ftp.jaist.ac.jp/pu
 sudo apt update
 sudo apt upgrade
 
-# ln -sf ~/.dotfiles/vimrc ~/.vimrc
+ln -sf ~/.dotfiles/vimrc ~/.vimrc
 # ln -sf ~/.dotfiles/vim ~/.vim
 # ln -sf ~/,dotfiles/tmux.conf ~/.tmux.conf
 

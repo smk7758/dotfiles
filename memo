@@ -1,6 +1,10 @@
-git clone http://github.com/smk7758/dotfiles ~/.dotfiles
+git clone https://github.com/smk7758/dotfiles ~/.dotfiles
+chmod -R 744 ~/.dotfiles
 
 uintさんに進められたのでdotfilesを書く
 zsh / fish
+
+vimの:をspace wqとかx
+reader key！vimrc; mapleader = Leader
 
 ~/.bashrcにailas
